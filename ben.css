@@ -1,0 +1,22 @@
+body {
+    background-color:black;
+}
+
+p {
+    color:white;
+    text-align:center;
+    font-size: x-large;
+}
+
+.button{
+    cursor:pointer;
+    border-radius: 10px;
+    width: 100px;
+    font-size: x-large;
+    color: #c57700;
+    background-color: #6f2200;
+    border: 3px solid green;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+}
