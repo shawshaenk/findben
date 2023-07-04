@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="sittingben.ico">  
+    <link rel="stylesheet" href="ben.css">
+    <title>Find Ben</title>
+</head>
+<body>
+    <div id="ben" style="position:absolute">
+        <!-- style="color: transparent; background-color: transparent; border-color: transparent;" -->
+        <button type="button" class="button" onclick="benFound()" style="height:75px; color: transparent; background-color: transparent; border-color: transparent;">ben</button>
+    </div>
+
+    <audio id="myAudio">
+        <source src="bensayingben.mp3" type="audio/mp3">
+    </audio><br>
+    <div style="display: flex; justify-content: center;">
+        <button type="button" class="button" onclick="start()">Play</button>
+        <button type="button" class="button" onclick="end()">Pause</button>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <img src="sittingben.jpg" id="startimage">
+    </div>
+    
+    <script src="ben.js"></script>
+</body>
+</html>
